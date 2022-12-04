@@ -8,6 +8,16 @@
 + 1 GIF
 > Investigar sobre .gitignore
 
+## Funcionalidades GIT:
+
+- **Git init**: Esto crea un subdirectorio nuevo llamado .git, el cual contiene todos los archivos necesarios del repositorio – un esqueleto de un repositorio de Git. Todavía no hay nada en tu proyecto que esté bajo seguimiento.
+* **Git fetch**: Descarga los cambios realizados en el repositorio remoto. Comprueba el estado del repositorio local en comparación con el repositorio remoto.
++ **Git merge**: Impacta en la rama en la que te encuentras parado, los cambios realizados en la rama “nombre_rama”.
+- **Git pull**: Unifica los comandos fetch y merge en un único comando.
++ **Git commit**: Confirma los cambios realizados. El “mensaje” generalmente se usa para asociar al commit una breve descripción de los cambios realizados.
+* **Git push**: Sube la rama “nombre_rama” al servidor remoto.
+- **Git status**: Muestra el estado actual de la rama, como los cambios que hay sin commitear.
+
 
 ## Galeria:
 #### Imagen
