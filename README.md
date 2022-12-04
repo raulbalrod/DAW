@@ -18,6 +18,20 @@
 * **Git push**: Sube la rama “nombre_rama” al servidor remoto.
 - **Git status**: Muestra el estado actual de la rama, como los cambios que hay sin commitear.
 
+## Gitignore:
+El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto.
+Un archivo local .gitignore generalmente se coloca en el directorio raíz de un proyecto. También puedes crear un archivo global .gitignore, y cualquier entrada en ese archivo se ignorará en todos tus repositorios de Git.
+Para crear un archivo .gitignore local, crea un archivo de texto y asígnale el nombre ".gitignore" (recuerda incluir el . al principio). Luego, edita este archivo según sea necesario. Cada nueva línea debe incluir un archivo o carpeta adicional que quieras que Git lo ignore.
+- Ignora archivos del sistema Mac ->
+*.DS_store*
+- Ignora la carpeta node_modules ->
+*node_modules*
+- Ignora todos los archivos de texto ->
+*.txt*
+- Ignora los archivos relacionados a API keys ->
+*.env*
+- Ignora archivos de configuración SASS ->
+*.sass-cache*
 
 ## Galeria:
 #### Imagen
